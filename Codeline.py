@@ -10,7 +10,7 @@ def print_pattern():
     print("--- You Have selected Print Pattern ---")
     n = int(input("Enter the number of rows for the pattern: "))
     if n <= 0:
-        print("Please enter the number.")
+        print("Please enter a vaild number.")
     else:
         for i in range(n, 0, -1):
             print('* ' * i)
